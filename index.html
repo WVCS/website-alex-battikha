@@ -1,13 +1,18 @@
 <html>
   <head>
-    
+    <title>Alex's Website</title>
   </head>
   <body>
+    <ul>
+      <li><a href="index.html"> About Me </a></li>
+      <li><a href="projects.html"> Projects </a></li>
+      <li><a href="index.html"> Home </a></li>
+    </ul>
     <center>
+      <br>
+      <br>
       <h1 id="header">Alex's Wesbite</h1>
-      <a href="">
-        <img src="https://static.vecteezy.com/system/resources/previews/046/542/946/non_2x/eiffel-tower-in-paris-france-close-up-free-png.png">
-      </a>
+      <img src="https://static.vecteezy.com/system/resources/previews/046/542/946/non_2x/eiffel-tower-in-paris-france-close-up-free-png.png">
       </body>
 </html>
 
@@ -29,5 +34,35 @@
   img:hover{
     width:30%;
     border: dotted 16px #537A5A;
+  }
+  
+  ul {
+    list-style: none;
+    background-color: #474A48;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    left: 0;
+    right: 10;
+    top: 0;
+    opacity: 0.6;
+  }
+  
+  li {
+    display: inline;
+    padding: 12px 60px;
+    float: right;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #9AE19D;
+    font-variant: small-caps;
+  }
+  
+  li a:hover {
+    background-color: white;
+    padding: 18px 18px;
+    opacity: 1;
   }
 </style>
